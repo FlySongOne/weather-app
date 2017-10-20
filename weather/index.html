@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+  <title>Weather App</title>
+  <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+  <link rel='stylesheet' type='text/css' href='./style/reset.css'>
+  <link rel='stylesheet' type='text/css' href='./style/style.css'>
+  <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+</head>
+<body>
+
+ <section class="top">
+
+      <input id="submit1" type ="text" autofocus placeholder="Enter Your Zip" value=""></input>
+      <button id="submit2" type="text" >SEARCH</button>
+
+ </section>
+
+ <section class="center">
+  <div class="container">
+  <div class = "left">
+    <div id ="name"></div>
+    <div id ="temp"></div>
+    <div id ="description"></div>
+  </div>
+  <div class="right">
+
+    <div class='row'>
+      <div class='cell'>
+        <h3>Min</h3>
+        <div id ="min"></div>
+      </div>
+      <div class='cell'>
+        <h3>Max</h3>
+        <div id ='max'></div>
+       </div>
+    </div>
+
+    <div class="row">
+      <div class='cell'>
+        <h3>Wind Speed</h3>
+        <div id ='wind'></div>
+      </div>
+      <div class='cell'>
+        <h3>Humidity</h3>
+        <div id = "humid"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class='cell'>
+        <h3>Latitude</h3>
+        <div id= "lat"></div>
+      </div>
+      <div class='cell'>
+        <h3>Longitude</h3>
+        <div id="long"></div>
+      </div>
+    </div>
+  </div>
+
+ </section>
+
+  <script src='./src/main.js'></script>
+</body>
+</html>
