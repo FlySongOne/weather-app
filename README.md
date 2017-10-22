@@ -3,8 +3,8 @@
 min, max temperatures, city name, description, latitude, longitude, humidity, 
 and wind speed.  
 
-![horizontalview](./weather/weather/images/weatherapp-horizontal.png)
-![verticalview](./weather/weather/images/weatherapp-vertical.png)
+![horizontalview](./weather/images/weatherapp-horizontal.png)
+![verticalview](./weather/images/weatherapp-vertical.png)
 
 ## features:
 - An input field for a user to enter a zip code
@@ -21,7 +21,7 @@ and wind speed.
 - The temperature turn blue if under 40, and red if above 90.
 - The app is styled by using flex box
 
-#Technology Used
+# Technology Used
 - JavaScript
 - jQuery
 - HTML/CSS
