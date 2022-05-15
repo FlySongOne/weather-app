@@ -20,7 +20,7 @@ $submit1.on("keydown",function(event) {
 function show(){
   if(!isNaN($submit1.val()) ){
      var zipCode = $submit1.val();
-     var weatherAPI = "http://api.openweathermap.org/data/2.5/weather?zip="+zipCode+",us&appid=43d65fe9b47fff323e627f38fbfdf76c";
+     var weatherAPI = "";
 
      $.getJSON(weatherAPI,function(data){
         getData(data);   // fetched data is an augument to getData function
